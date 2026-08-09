@@ -86,4 +86,4 @@ Backend:
 
 # 👨‍💻 Author
 
-Samni
+Samni Hasnath
