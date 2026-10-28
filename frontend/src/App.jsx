@@ -40,8 +40,15 @@ function App() {
         <Toaster
           position="bottom-right"
           toastOptions={{
-            style: { background: '#1e1e2e', color: '#fff', border: '1px solid #2e2e3e' },
-            success: { iconTheme: { primary: '#f5c518', secondary: '#000' } },
+            style: {
+              background: '#1b1b21',
+              color: '#f4f4f5',
+              border: '1px solid rgba(255,255,255,0.1)',
+              borderRadius: '10px',
+              fontSize: '0.88rem',
+              boxShadow: '0 10px 30px rgba(0,0,0,0.4)',
+            },
+            success: { iconTheme: { primary: '#e5b53a', secondary: '#111' } },
           }}
         />
       </BrowserRouter>
