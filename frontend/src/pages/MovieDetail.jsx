@@ -53,7 +53,7 @@ function MovieDetail() {
   if (error) return <ErrorMessage message={error} />;
   if (!movie) return null;
 
-  const poster = movie.poster_url || 'https://via.placeholder.com/400x600/1a1a2e/ffffff?text=No+Image';
+  const poster = movie.poster_url || 'https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=400&q=80';
 
   return (
     <div className="movie-detail">
