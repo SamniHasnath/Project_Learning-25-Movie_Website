@@ -4,6 +4,8 @@ A modern **full-stack movie website** built with **React, Vite, Node.js, Express
 
 The application provides a platform where users can register and log in, browse movies, search for movies, manage their favorites and watchlist, while administrators can manage movie data through a dedicated admin dashboard.
 
+<img width="1920" height="4915" alt="image" src="https://github.com/user-attachments/assets/d505d0d7-ebbe-42e9-a04a-30c47cec8410" />
+
 ---
 
 ## 📌 Table of Contents
