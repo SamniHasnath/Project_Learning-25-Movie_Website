@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FiFilm, FiTwitter, FiInstagram, FiGithub, FiMail } from 'react-icons/fi';
-import { AiFillHeart } from 'react-icons/ai';
 import toast from 'react-hot-toast';
 
 const Footer = () => {
@@ -78,9 +77,7 @@ const Footer = () => {
       {/* ── Newsletter ── */}
       <div className="footer-newsletter">
         <div className="newsletter-text">
-          <h3 className="newsletter-title">
-            <AiFillHeart className="newsletter-heart" /> Stay Updated
-          </h3>
+          <h3 className="newsletter-title">Stay in the loop</h3>
           <p className="newsletter-subtitle">
             Subscribe to get updates on new releases and features
           </p>
@@ -101,7 +98,8 @@ const Footer = () => {
       <div className="footer-bottom">
         <p className="footer-copy">© 2026 CineVault. All rights reserved.</p>
         <p className="footer-built">
-          Built By <AiFillHeart className="built-heart" /> Samni Hasnath       </p>
+          Designed &amp; built by Samni Hasnath
+        </p>
       </div>
 
     </footer>
